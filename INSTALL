@@ -1,0 +1,9 @@
+Building Govno
+
+See doc/readme-qt.rst for instructions on building Govno QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Govno.
+
+See doc/build-*.txt for instructions on building govnod,
+the intended-for-services, no-graphical-interface, reference
+implementation of Govno.
