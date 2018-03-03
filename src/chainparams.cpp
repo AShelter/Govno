@@ -91,11 +91,11 @@ public:
 
 		hashGenesisBlock = genesis.GetHash();
 		
-		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+		//printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        //printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
         
-		assert(genesis.hashMerkleRoot == uint256("0x"));
-		assert(hashGenesisBlock == uint256("0x"));
+		assert(genesis.hashMerkleRoot == uint256("0xf3912f057fee3f06a0a0775d9c06fd40ad74b351bd3e83432bdb4144f75f7b20"));
+		assert(hashGenesisBlock == uint256("0xda9939c5d73344a0e6f9a8c2fcbfc442c1e5778cfc2255b393f220b6c06ff87f"));
 
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
